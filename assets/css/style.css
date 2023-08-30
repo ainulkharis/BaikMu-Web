@@ -179,6 +179,7 @@ body {
 .btn-item-link {
   overflow: hidden;
   border-radius: var(--radius-10);
+  margin-bottom: 25px;
 }
 
 .btn-item-link .img { width: 136px; }
@@ -243,7 +244,7 @@ body {
 }
 
 .header .logo img {
-  margin-left: 20px;
+  margin-left: 10px;
   max-height: 55px;
 }
 
@@ -589,7 +590,7 @@ button:hover {
     padding: 10px 20px;
   }
 
-  .hero-content {padding-bottom: 200px;}
+  .hero-content { padding-bottom: 200px;}
 
 }
 
@@ -623,6 +624,11 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 30px;
+  }
+
+  .header .logo img {
+    margin-left: 20px;
+    max-height: 55px;
   }
 
   /* HERO */
@@ -694,6 +700,11 @@ button:hover {
     padding: 14px 30px;
     border-radius: var(--radius-6);
     margin-block: 0;
+  }
+
+  .header .logo img {
+    margin-left: 20px;
+    max-height: 55px;
   }
 
   /* HERO */
