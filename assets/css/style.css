@@ -379,6 +379,46 @@ body {
 }
 
 /*-----------------------------------*\
+  #CONTACT
+\*-----------------------------------*/
+
+form {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: #1B94D8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #156582;
+}
+
+/*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
 
@@ -677,6 +717,11 @@ body {
   .features-list { gap: 25px; }
 
   .features-card { padding: 30px; }
+
+  /* CONTACT */
+  form {
+    width: 70%;
+  }
 
   /* FOOTER */
   .footer-list-title { --fs-2: 2.2rem; }
